@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Website </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-car"></i>CARvault</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">brands</a>
+            <a href="#products">upcoming</a>
+            <a href="#categories">Services</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+            <a href="#" data-page="signup">Sign Up</a>
+            <a href="#" data-page="login">Login</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-heart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-icon-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="pexels-photo-13010599.webp" alt="">
+                <div class="content">
+                    <h3>Audi</h3>
+                    <span class="price">$4600.99/-</span>
+
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="pexels-photo-3221163.jpeg" alt="">
+                <div class="content">
+                    <h3>Audi Q3</h3>
+                    <span class="price">$54000.99/-</span>
+
+                </div>
+            </div>
+            <div class="box">
+                <i class="far fa-times-circle"></i>
+                <img src="pexels-photo-2365572.jpeg" alt="">
+                <div class="content">
+                    <h3>Mercedes</h3>
+                    <span class="price">$42344.99/-</span>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fast and <span>supersonic</span> cars for you</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum veniam facere tempore
+                nisi.</p>
+            <a href="#" class="btn">explore</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- features section starts  -->
+
+    <section class="features" id="features">
+
+        <h1 class="heading">Search Cars by<span>Brand</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="Lamborghini-750x406.webp" alt="">
+                <h3>Lamborghini</h3>
+
+                <a href="#" class="btn">Explore</a>
+            </div>
+
+            <div class="box">
+                <img src="ferrari.png" alt="">
+                <h3>ferrari</h3>
+
+                <a href="#" class="btn">Explore</a>
+            </div>
+
+            <div class="box">
+                <img src="images.jpeg" alt="">
+                <h3>bugatti</h3>
+
+                <a href="#" class="btn">Explore</a>
+            </div>
+            <div class="box">
+                <img src="download.jpeg" alt="">
+                <h3>mclaren</h3>
+
+                <a href="#" class="btn">Explore</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- features section ends -->
+
+    <!-- products section starts  -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading">new <span>Launches</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=400"
+                        alt="">
+                    <h3>lambo aventador</h3>
+                    <div class="price"> Rs.6.25 - 9.00 Cr* </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">wishlist</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.pexels.com/photos/5730166/pexels-photo-5730166.jpeg?auto=compress&cs=tinysrgb&w=400"
+                        alt="">
+                    <h3>lambo huracan</h3>
+                    <div class="price"> Rs.3.21 - 4.99 Cr*</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">wishlist</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.pexels.com/photos/4651251/pexels-photo-4651251.jpeg?auto=compress&cs=tinysrgb&w=400"
+                        alt="">
+                    <h3>ferrai portofino</h3>
+                    <div class="price"> Rs.3.5 - 5 cr* </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">wishlist</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Ferrari/SF90-Stradale/7858/1591619661237/front-left-side-47.jpg?tr=w-456"
+                        alt="">
+                    <h3>ferrari sf90 stradale</h3>
+                    <div class="price">Rs.7.5 - 10 cr*</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">wishlist</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://images.pexels.com/photos/10550012/pexels-photo-10550012.jpeg?auto=compress&cs=tinysrgb&w=400"
+                        alt="">
+                    <h3>mcleren 570S</h3>
+                    <div class="price">Rs. 99.lakhs - 2 cr* </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">wishlist</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.pexels.com/photos/12484823/pexels-photo-12484823.jpeg?auto=compress&cs=tinysrgb&w=400"
+                        alt="">
+                    <h3>mclaren 570gt</h3>
+                    <div class="price"> Rs. 1 - 3.5 cr*</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">wishlist</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images.jpeg" alt="">
+                    <h3>Chiron super sport</h3>
+                    <div class="price"> Rs.25 - 30 cr* </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">wishlist</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://www.bugatti.com/fileadmin/_processed_/sei/p1/se-image-da4e17e4e5ee1517fc8e0f3d06de2f14.webp"
+                        alt="">
+                    <h3>bugati chiron</h3>
+                    <div class="price"> Rs.19.21 - 25 cr*</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">wishlist</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- categories section starts  -->
+
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> carster <span>Services</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    alt="">
+                <h3>Super Cars</h3>
+                <p>upto 50 modles</p>
+                <a href="#" class="btn">explore now</a>
+            </div>
+
+            <div class="box">
+                <img src="pexels-photo-2365572.jpeg" alt="">
+                <h3>Accomplished XUV's</h3>
+                <p>upto 450 modles</p>
+                <a href="#" class="btn">explore now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://images.pexels.com/photos/3354648/pexels-photo-3354648.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    alt="">
+                <h3>Home services</h3>
+                <p>home servicing</p>
+                <a href="#" class="btn">Call now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://images.pexels.com/photos/168938/pexels-photo-168938.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    alt="">
+                <h3>Find your beast</h3>
+                <p>get more</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/1313647979/photo/calling-roadside-assistance.jpg?s=612x612&w=0&k=20&c=zQMl6mqE2vFJSxdnUz2RK9DUtudEurvgkYbceuyah_0="
+                    alt="">
+                <h3>Insurance</h3>
+                <p></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+            <div class="box">
+                <img src="hands-people.webp" alt="">
+                <h3>24/7 support</h3>
+                <p>always ready</p>
+                <a href="#" class="btn">askforhelp</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- categories section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400"
+                        alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est
+                        maxime ad tempore quasi tenetur.</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
+                        alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est
+                        maxime ad tempore quasi tenetur.</p>
+                    <h3>Mrs. Pogo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=400"
+                        alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est
+                        maxime ad tempore quasi tenetur.</p>
+                    <h3>Mr.Mercy</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&w=400"
+                        alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est
+                        maxime ad tempore quasi tenetur.</p>
+                    <h3>Mr.RDJ </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="bugatti.jpeg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                    </div>
+                    <h3>PUR SPORT MODLE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="pexels-photo-6462662.jpeg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                    </div>
+                    <h3>HURACAN STO</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="pexels-photo-2664399.jpeg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                    </div>
+                    <h3>Ferrari 269GT</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Signup Page -->
+    <div id="signup" class="page hidden">
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <input type="text" id="signup-name" placeholder="Enter your name" required>
+            <input type="email" id="signup-email" placeholder="Enter your email" required>
+            <input type="password" id="signup-password" placeholder="Enter your password" required>
+            <button id="signup-btn">Sign Up</button>
+            <p id="signup-error" style="color: red; display: none;">Please fill in all fields.</p>
+        </div>
+    </div>
+
+    <!-- Login Page -->
+    <div id="login" class="page hidden">
+        <div class="form-container">
+            <h2>Login</h2>
+            <input type="email" id="login-email" placeholder="Enter your email" required>
+            <input type="password" id="login-password" placeholder="Enter your password" required>
+            <button id="login-btn">Login</button>
+            <p id="login-error" style="color: red; display: none;">Invalid email or password.</p>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- blogs section ends -->
+    <!--<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1632137920043!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe> -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> CARvault <i class="fas fa-car"></i> </h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> Carsters@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> London, UK </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> #CARvaultGROUPS PVT.ltd </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="index.js"></script>
+
+    <script>
+
+        // Signup Functionality
+        document.getElementById('signup-btn').addEventListener('click', async () => {
+            const name = document.getElementById('signup-name').value.trim();
+            const email = document.getElementById('signup-email').value.trim();
+            const password = document.getElementById('signup-password').value.trim();
+            const error = document.getElementById('signup-error');
+
+            if (name && email && password) {
+                try {
+                    const response = await fetch('http://localhost:4000/api/users/signup', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ name, email, password }),
+                    });
+
+                    const data = await response.json();
+
+                    if (response.ok) {
+                        alert('Sign Up Successful! Redirecting to Login page...');
+                        error.style.display = 'none';
+                        document.getElementById('signup').classList.add('hidden');
+                        document.getElementById('login').classList.remove('hidden');
+                    } else {
+                        error.textContent = data.message || 'Sign Up Failed!';
+                        error.style.display = 'block';
+                    }
+                } catch (err) {
+                    error.textContent = 'An error occurred. Please try again later.';
+                    error.style.display = 'block';
+                }
+            } else {
+                error.textContent = 'All fields are required!';
+                error.style.display = 'block';
+            }
+        });
+
+        // Login Functionality
+        document.getElementById('login-btn').addEventListener('click', async () => {
+            const email = document.getElementById('login-email').value.trim();
+            const password = document.getElementById('login-password').value.trim();
+            const error = document.getElementById('login-error');
+
+            if (email && password) {
+                try {
+                    const response = await fetch('http://localhost:4000/api/users/login', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ email, password }),
+                    });
+
+                    const data = await response.json();
+
+                    if (response.ok) {
+                        alert(`Welcome back, ${data.user.name}!`);
+                        error.style.display = 'none';
+                        localStorage.setItem('user', JSON.stringify(data));
+
+                        // Redirect to the home page
+                        document.querySelectorAll('.page').forEach(page => page.classList.add('hidden'));
+                        document.getElementById('home').classList.remove('hidden');
+                    } else {
+                        error.textContent = data.message || 'Invalid email or password.';
+                        error.style.display = 'block';
+                    }
+                } catch (err) {
+                    error.textContent = 'An error occurred. Please try again later.';
+                    error.style.display = 'block';
+                }
+            } else {
+                error.textContent = 'All fields are required!';
+                error.style.display = 'block';
+            }
+        });
+
+    </script>
+
+
+</body>
+
+</html>
